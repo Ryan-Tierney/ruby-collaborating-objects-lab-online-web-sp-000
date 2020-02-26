@@ -28,6 +28,7 @@ class Artist
         name 
       else 
           Artist.new(name)
+      end 
     end 
   end 
     
