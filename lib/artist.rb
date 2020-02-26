@@ -22,6 +22,7 @@ class Artist
     @songs << song
   end 
   
+  
    self.all.detect {|artist| artist.name == name} || Artist.new(name).save
   end
     
