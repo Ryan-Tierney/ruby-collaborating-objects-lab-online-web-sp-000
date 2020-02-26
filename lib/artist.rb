@@ -12,7 +12,7 @@ class Artist
   end 
   
   def self.all 
-    @name 
+    @songs
   end 
   
   def add_song(song)
